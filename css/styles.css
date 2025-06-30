@@ -222,23 +222,3 @@ footer a:hover {
   width: 100%;
 }
 
-.cont-ruta{
-  text-align: center;
-  margin-top: 10px;
-}
-#calc-ruta{
-  background-color: #1a1a40;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 15px;  
-  border: 0px;
-}
-
-#calc-ruta:hover{
-    background-color: #00c3ff;
-    cursor: pointer;
-    color: #1a1a40;
-    border: 0px;
-}
