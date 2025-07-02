@@ -13,6 +13,11 @@ L.marker([40.391380, -3.707172]).addTo(mapa)
     .bindPopup('NovaTech Solutions <br> Calle de Mariblanca 28, Madrid, España <br>  +34 912 345 6780')
     .openPopup();
 
+var options = {
+enableHighAccuracy: true,
+timeout: 30000,
+maximumAge: 0
+}
 
 // Habilitar geolocalización
 if (navigator.geolocation) {

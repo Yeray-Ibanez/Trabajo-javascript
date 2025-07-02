@@ -45,6 +45,7 @@ header {
 .navbar {
   margin-top: 10px;
   text-align: center;
+  
 }
 
 .navbar ul {
@@ -221,4 +222,6 @@ footer a:hover {
   height: 400px;
   width: 100%;
 }
+
+
 
