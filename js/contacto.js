@@ -26,12 +26,6 @@ if (navigator.geolocation) {
     alert("Los servicios de geolocalización no están disponibles");
 }
 
-var options = {
-    enableHighAccuracy: true,
-    timeout: 30000,
-    maximumAge: 0
-}
-
 //función en caso de exito
 function success(position){
     let lat = position.coords.latitude;
