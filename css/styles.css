@@ -131,6 +131,10 @@ fieldset{
   background-color: #00c3ff;
 }
 
+.checkb{
+  cursor: pointer;
+}
+
 /* Lista de servicios */
 
 #servicios ul {
